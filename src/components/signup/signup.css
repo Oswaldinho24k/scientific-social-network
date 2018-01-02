@@ -1,0 +1,24 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 90vh;
+    background-image: url('https://static.pexels.com/photos/373076/pexels-photo-373076.jpeg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+}
+
+.signup-box{
+    margin-top: 60px;
+    color: black;
+    width: 30%;
+    border-radius: 5px;
+   /* border: solid 1px #e8e8e6;*/
+    /*background: rgba(0,0,0,0.1);*/
+    box-shadow:  0 1px 1px 1px rgba(0,0,0,.2);
+    text-align: center;
+    padding: 1% 5%;
+}

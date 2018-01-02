@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto)
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+   /* The card */
+.card {
+
+    position: relative;
+    height: 370px;
+    width: 650px;
+    margin: 70px auto;
+    background-color: white;
+    /*-webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.25);*/
+    /*-moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.25);*/
+    /*box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.25);*/
+}
+
+.thumbnail {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: -30px;
+    height: 270px;
+    width: 330px;
+    -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    overflow: hiddenl;
+
+    /*object-fit: cover;*/
+    /*object-position: center;*/
+}
+.left {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* Right side of the card */
+.event_name{
+    padding-top: 15px;
+    font-size: 1.3rem;
+    color:#4B4B4B;
+}
+.right {
+    margin-left: 380px;
+    margin-right: 20px;
+
+}
+.author{
+    background-color: #9ECAFF;
+    height: 30px;
+    width:110px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.author img {
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.data {
+    padding-top: 8px;
+    margin-right: 12px;
+    text-align: right;
+    font-size: 0.8rem;
+    color: white;
+
+}
+.separator{
+    margin-top: 10px;
+    border: 1px solid #C3C3C3;
+}
+.right p{
+    text-align: justify;
+    padding-top : 10px;
+    font-size : 0.95rem;
+    line-height: 150%;
+    color : #4B4B4B;
+    min-height: 150px;
+
+}
+    /* DATE of release*/
+.fech {
+    position: absolute;
+    left: 30px;
+    bottom: 45px;
+    font-size: 2rem;
+    color: #C3C3C3;
+}
+.lugar {
+    position: absolute;
+    left: 30px;
+    bottom: 23px;
+    font-size: 1rem;
+    color: #C3C3C3;
+}
+                                                                         /* Those futur buttons */
+ul {
+    margin-left: 320px;
+    margin-top: 40px;
+}
+li {
+    display: inline;
+    list-style: none;
+    padding-right: 40px;
+    color: #7B7B7B;
+    cursor: pointer;
+}
+                                                                                                           /* Floating action button */

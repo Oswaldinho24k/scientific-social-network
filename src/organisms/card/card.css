@@ -1,0 +1,62 @@
+.bliss-card{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:10px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: white;
+}
+
+.bliss-card article{
+    padding: 10px;
+}
+
+.bliss-card:hover{
+    box-shadow: 3px 10px 16px 3px rgba(0,0,0,0.2);
+    transform: translateY(3px);
+}
+
+.bliss-card header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bliss-card header span{
+    color: gray;
+    font-size: .7rem;
+}
+
+.bliss-card section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color:dimgrey;
+}
+
+.bliss-card section img{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.bliss-card footer{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+}
+
+.bliss-card footer p{
+    padding: 20px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.bliss-card footer p:nth-child(2){
+    border-right: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+}*/

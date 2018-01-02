@@ -1,0 +1,84 @@
+.chat-page{
+	padding:20px 20px;
+	display: flex;
+}
+
+.contacts-list{
+	padding: 2%;
+}
+.chat-page .div-lista{
+	height: 80vh;
+    overflow-y: scroll;
+}
+
+.chat-box-bliss{
+    margin-top: 35px;
+	padding:20px;
+	flex:1;
+}
+.caja-texto{
+	padding:1%;
+	max-height: 58vh;
+    min-height: 58vh;
+}
+.caja-mensaje{
+	padding: 2%;
+	display:flex;
+    width: 100%;
+	justify-content: space-between;
+}
+.el-input{
+	width: 80%;
+
+}
+
+.chat-mensajes{
+    height: 60vh;
+}
+
+.chat-mensaje.izquierda{
+    border-radius: 8px;
+    padding: 8px 12px;
+    background-color: transparent;
+    overflow: hidden;
+    /*display: inline-block;*/
+    float: left;
+    clear: both;
+    max-width: 75%;
+    vertical-align: baseline;
+    border:1px solid #e1e9ee;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.chat-mensaje.izquierda span{
+    margin-left: 20px;
+}
+
+.chat-mensaje.derecha{
+    border-radius: 8px;
+    padding: 8px 12px;
+    background-color: #e1e9ee;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    clear: both;
+    max-width: 75%;
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+
+.chat-mensaje.derecha img{
+    display: none!important;
+}
+
+
+@media(max-width: 600px){
+    .chat-page{
+        flex-direction: column;
+    }
+    .caja-mensaje{
+        width: 80%;
+    }
+}

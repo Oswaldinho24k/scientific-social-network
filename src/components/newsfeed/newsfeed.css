@@ -1,0 +1,95 @@
+.elfeed{
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 10%;
+}
+.elfeed::-webkit-scrollbar{
+    width: 0;
+    display: none;
+    visibility: hidden;
+}
+.newsfeed{
+    padding: 0px 10%;
+    height: 90vh;
+
+}
+.newsfeed-posts{
+    overflow-y: scroll;
+}
+/*idk*/
+.news-sections{
+    position: relative;
+}
+
+.posts-section{
+    padding: 2% 5%;
+}
+.menu-left-section{
+
+    position: fixed;
+}
+
+.menu-right-section{
+    position: fixed;
+
+}
+.new-post{
+    margin-bottom: 2%;
+}
+
+/*groups-list*/
+.groups-list{
+    height: 40vh;
+    overflow-y: scroll;
+}
+.groups-list2{
+    height: 60vh;
+    overflow-y: scroll;
+}
+.lista-grupos{
+    position: sticky;
+}
+.recommendations{
+    position: sticky;
+}
+.button-add-group{
+    position:absolute;
+    top:40%;
+    right:10px;
+    z-index:1000;
+}
+.groups-list::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+.groups-list2::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.newsfeed-link{
+    text-decoration: none;
+    color: black;
+}
+.newsfeed-link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.inputimage{
+    position: absolute;
+    top:30%;
+    left:0;
+    opacity: 0;
+
+}
+
+/*loader class*/
+.loaderOn{
+    display: flex;
+    justify-content: center;
+}
+.loaderOff{
+
+    display: none;
+}

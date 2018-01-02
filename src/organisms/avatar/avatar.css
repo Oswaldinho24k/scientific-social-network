@@ -1,0 +1,45 @@
+.my-avatar-container{
+    width: 100%;
+    padding:1%;
+    margin:0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+.avatar-link{
+    color: #000;
+    text-decoration: none;
+}
+.avatar-image-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right:2%;
+}
+.avatar-image-container .avatar-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.avatar-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+
+}
+.avatar-info-container .name{
+    font-size: 1rem;
+}
+.avatar-info-container .title{
+    color: #888888;
+    font-size: .7rem;
+}
+.avatar-info-container h2{
+
+}
+.extra-component{
+    width: 20%;
+}

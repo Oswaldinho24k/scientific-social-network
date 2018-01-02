@@ -1,0 +1,63 @@
+.organizations-page{
+    padding: 0 10%;
+}
+.organizations-page a{
+    text-decoration: none;
+
+}
+
+.floating-button{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    z-index: 200;
+}
+
+.organization-card{
+    padding: 2% 3%;
+}
+.organization-content{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/*details*/
+.elfeed{
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 10%;
+}
+.elfeed::-webkit-scrollbar{
+    width: 0;
+    display: none;
+    visibility: hidden;
+}
+.organization-image{
+    height: 200px;
+    width: 100%;
+}
+.organization-image img{
+    height: 100%;
+    width: 100%;
+}
+.organization-detail{
+    padding: 0 8%;
+}
+
+.organization-basics{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    position: relative;
+}
+.paper-datos{
+    margin-top: 10px;
+    padding: 2% 5%;
+
+}

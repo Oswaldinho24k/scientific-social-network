@@ -1,0 +1,145 @@
+.group-page{
+    box-sizing: border-box;
+    padding: 0 7%;
+}
+
+.basics-section{
+    padding: 1% 3%;
+    position: relative;
+}
+.basics-paper{
+    margin-top: 10px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 87vh;
+
+}
+.elfeed{
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 10%;
+}
+.elfeed::-webkit-scrollbar{
+    width: 0;
+    display: none;
+    visibility: hidden;
+}
+.group-gridlist{
+    position: relative;
+
+}
+
+/*basics container*/
+.basics-container{
+    width:100%;
+    text-align: center;
+    position: relative;
+}
+.members-add-button{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 100;
+}
+.avatar-container{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    background-image: url("http://www.elfinanciero.com.mx/files/article_main//files/crop/uploads/2017/01/13/587872f74e855.r_1498541669158.0-0-454-300.png");
+    background-size: cover;
+    border-radius: 5%;
+
+}
+.basics-avatar{
+
+}
+.members-list{
+    height: 50vh;
+    overflow-y: scroll;
+}
+.members-list::-webkit-scrollbar{
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/*groups feed*/
+.group-feed{
+    padding: 1% 5%;
+}
+/*chat section*/
+.chat-section{
+    position: fixed;
+}
+/*group chat*/
+
+.group-chat{
+    height: 87vh;
+    padding: 1%;
+}
+.group-chat-paper{
+    margin-top: 10px;
+    padding: 10px 1%;
+    height: 87vh;
+    position: fixed;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.text-box{
+
+    font-size: .5rem;
+    background: white;
+    border-top: solid 1px rgba(0,0,0,.1);
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+
+
+}
+.chat-box{
+    font-size: .8rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 75vh;
+    max-height: 75vh;
+    overflow-y: scroll;
+    padding-bottom: 5%;
+
+}
+.chat{
+    max-width: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+.chat-text{
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1) ;
+    padding: 5px 10px;
+    max-width: 70%;
+    /*background: rgba(0,0,0,.1);*/
+}
+
+.owner-chat{
+    background: rgba(0,0,0,.1)
+}
+.left-chat{
+
+
+}
+.right-chat{
+    flex-flow: row-reverse;
+}
+.chat-box::-webkit-scrollbar{
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: ju*/
+}
+.botones-chat-container{
+    display: flex;
+}
+
