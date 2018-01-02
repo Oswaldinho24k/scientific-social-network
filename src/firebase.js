@@ -1,14 +1,18 @@
 import * as firebase from 'firebase';
 
+
+
+// Initialize Firebase
 const config = {
-    apiKey: "AIzaSyCs_9CJDDU4xxrb6wfG8AEz6Wf4WrS5tHI",
-    authDomain: "concamin-c2a9c.firebaseapp.com",
-    databaseURL: "https://concamin-c2a9c.firebaseio.com",
-    projectId: "concamin-c2a9c",
-    storageBucket: "concamin-c2a9c.appspot.com",
-    messagingSenderId: "796874295023"
+    apiKey: "AIzaSyC9LfTG02qUjNOX-sT9gLNEB88CIURrebs",
+    authDomain: "scientificnw.firebaseapp.com",
+    databaseURL: "https://scientificnw.firebaseio.com",
+    projectId: "scientificnw",
+    storageBucket: "scientificnw.appspot.com",
+    messagingSenderId: "478862627017"
 };
 firebase.initializeApp(config);
+
 
 export default firebase;
 

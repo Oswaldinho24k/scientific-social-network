@@ -25,12 +25,13 @@ class Navbar extends Component {
         return (
             <div className="navbar">
                 <Toolbar
-                    style={{backgroundColor:"#0097A7"}}
+                    style={{backgroundColor:"#3D6099"}}
                 >
                    <ToolbarGroup>
                        <Link to="/" className="link-nav">
-                           <img style={{height:"40px"}} src={logo} alt=""/>
-                           <img style={{width:"100px", marginBottom:"12px"}} src={nombre} alt=""/>
+                           {/*<img style={{height:"40px"}} src={logo} alt=""/>
+                           <img style={{width:"100px", marginBottom:"12px"}} src={nombre} alt=""/>*/}
+                           <h2>Scientific-SN</h2>
                        </Link>
                    </ToolbarGroup>
                     {user ?

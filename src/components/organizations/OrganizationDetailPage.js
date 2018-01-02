@@ -68,7 +68,7 @@ class OrganizationDetailPage extends Component {
                         <div className="organization-basics">
 
                             <div className="organization-image">
-                                <img src="http://concamin.mx/wp-content/uploads/2015/08/294x216xgenerico-concamin.jpg.pagespeed.ic.6jxjQAxWT9.jpg" alt=""/>
+                                <img src="https://www.fixter.camp/static/assets/images/LOGIS-01.png" alt=""/>
                             </div>
                             <h3>{org.name}</h3>
                             <Subheader>Miembros</Subheader>
@@ -130,7 +130,7 @@ class OrganizationDetailPage extends Component {
                             {this.props.organizations.map((o, key)=>{
                                 return(
                                     <MiAvatar
-                                        image={'https://scontent.fmex5-1.fna.fbcdn.net/v/t34.0-12/25564661_10214514167705256_939305674_n.jpg?oh=f8d20db6dac90cd953243a138997af0f&oe=5A3C3B07'}
+                                        image={"https://pbs.twimg.com/profile_images/719575066736889856/eL9HcziB_400x400.jpg"}
                                         link={`/organizations/${o.id}`}
                                         name={o.name}
                                     />
